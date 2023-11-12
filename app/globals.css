@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.violet {
+  color: rgb(147, 51, 234);
+}
+
+.icon-hand {
+  position: relative;
+  width: 27px;
+  height: auto;
+  transform: rotate(-30deg);
+  top: 5px;
+  vertical-align: top;
+}
+
+a.pointer-events-none {
+  background: #7b83a3;
+}
+
+.nav svg {
+  width: 26px;
+  height: auto;
+}
+
+.hero-title > span span {
+  color: rgb(147, 51, 234);
+}
+
+.icon-globe {
+  margin-top: 1px;
+}
+
+.icon-linkedin {
+  padding: 2px 0 0;
+}
+
+.icon-linkedin svg {
+  width: 21px;
+}
+
+.error-page {
+  min-height: 500px;
+}
+
+@media screen and (max-width: 1020px){
+  .header {
+    padding: 25px 25px 0;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    padding: 30px 25px;
+  }
+
+  .avatar {
+    margin: 0 0 30px;
+    width: 210px;
+    padding: 35px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .hero, .footer div {
+    text-align: center;
+  }
+
+  .avatar {
+    margin: 0 0 30px;
+  }
+
+  .content {
+    margin: 40px 0 0;
+  }
+
+  .content-title {
+    text-align: center;
+    font-size: 35px;
+    margin: 0 0 45px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .content-boxes {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
