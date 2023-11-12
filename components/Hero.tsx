@@ -12,7 +12,7 @@ export const Hero = () => {
         <JackInTheBox triggerOnce>
         <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
           <div className="avatar border rounded-full p-10">
-            <Image src="/images/avatar.png" alt="Avatar" className="dark:invert" width={180} height={180} priority />
+            <Image src="/images/avatar.png" alt="Avatar" className="dark:invert" width={294} height={274} unoptimized/>
           </div>
 
           <div className="w-3/4">
